@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Gnatus</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>  
+    <div class="quiz-conteiner">
+      <div id="start-game" class=" init_quiz">
+        <h1 class="titulo">Quiz Gnatus</h1><br>
+        <h2 class="subtitulo">Teste seus conhecimentos sobre nossos equipamentos Gnatus</h2>
+        
+        <button id="initButton" class="initButton">Jogar</button>
+        
+          </div>
+          
+        </div>
+        <div id="gameQuiz" class="quiz-card" style="display: none;">
+          <div class="progress">
+            <div id="progress" class="progress-bar"></div>
+          </div>
+          
+          <div class="question-container fade-in">
+            <h2 id="question-text" class="question-text">Carregando Perguntas...</h2>
+          </div>
+          
+          <div class="question"></div>
+          <div class="options">
+            <div class="option" data-index="0">opção A</div>
+            <div class="option" data-index="1">opção B</div>
+            <div class="option" data-index="2">opção C</div>
+          </div>
+          <div class="footer">
+            <div id="timer" class="timer">30s</div>
+            <button id="next-btn" class="next-btn" disabled>Próxima</button>
+          </div>
+        </div>
+        
+        <div id="result-pont" class="result-card" style="display: none;">
+          <h2>Quiz Concluído!</h2>
+          <div id="final-pont" class="score">0</div>
+          <p class="message" id="msg-pont">Sua pontuação final</p>
+          <a href="index.html"><button id="resetGame" class="play-again">Jogar Novamente</button></a>
+          
+        </div>
+        
+        <script src="script.js"></script>
+      </body>
+      </html>
