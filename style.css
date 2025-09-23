@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(Trio_01\ \(1\).png);
+    background-image: url(img04.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -11,6 +11,14 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 768px){
+    body {
+        background-image: url();
+    }
+} 
+
+
 /*card principal*/
 .quiz-conteiner {
     text-align: center;
