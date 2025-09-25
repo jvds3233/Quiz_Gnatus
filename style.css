@@ -188,6 +188,12 @@ body {
     transform: translate(-50%, -50%);
 }
 
+@media (max-width: 768px){
+    .result-card {
+        width: 350px;
+    }
+}
+
 .result-card h2 {
     font-size: 24px;
     margin-bottom: 15px;
