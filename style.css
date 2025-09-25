@@ -82,6 +82,11 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+@media (max-width: 768px){
+    .quiz-card {
+        width: 350px;
+    }
+}
 
 /*barra de progresso*/
 .progress {
