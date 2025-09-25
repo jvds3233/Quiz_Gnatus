@@ -84,7 +84,7 @@ body {
 }
 @media (max-width: 768px){
     .quiz-card {
-        width: 350px;
+        width: 300px;
     }
 }
 
@@ -190,7 +190,7 @@ body {
 
 @media (max-width: 768px){
     .result-card {
-        width: 350px;
+        width: 300px;
     }
 }
 
